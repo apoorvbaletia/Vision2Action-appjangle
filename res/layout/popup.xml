@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/xx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/popup_bg2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.35"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F87217"
+                android:gravity="center"
+                android:orientation="vertical" >
+                
+                 
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+    				android:textColor="#000000"
+                    android:text="Congratulations!!!"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="3dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+                
+                
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                
+                <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+                
+                
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Justification:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.06" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.22"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextViewdfgsdfsdfs" />
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+                
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:background="#F87217"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/widget41"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:text="Ok"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

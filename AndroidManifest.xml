@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appjangle.vision2action"
+    android:versionCode="1"
+    android:versionName="1.0"  >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        
+        
+        <activity
+            android:name="com.appjangle.vision2action.Splash_Activity"
+            android:label="Vision2Action"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.appjangle.vision2action.Main_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >            
+        </activity>
+        <activity
+            android:name="com.appjangle.vision2action.Game1_Activity"
+            android:label="Industry Structure"
+            android:screenOrientation="landscape" >            
+        </activity>
+        <activity
+            android:name="com.appjangle.vision2action.Game2_Activity"
+            android:label="Competitive Strategy"
+            android:screenOrientation="landscape" >            
+        </activity>
+        <activity
+            android:name="com.appjangle.vision2action.Game3_Activity"
+            android:label="Value Chain"
+            android:screenOrientation="landscape" >            
+        </activity>
+        <activity
+            android:name="com.appjangle.vision2action.Game4_Activity"
+            android:label="Business Processes"
+            android:screenOrientation="landscape" >            
+        </activity>
+        <activity
+            android:name="com.appjangle.vision2action.Game5_Activity"
+            android:label="Systems"
+            android:screenOrientation="landscape" >            
+        </activity>
+        
+    </application>
+
+</manifest>
